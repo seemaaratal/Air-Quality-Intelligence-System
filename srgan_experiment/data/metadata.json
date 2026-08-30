@@ -1,0 +1,27 @@
+{
+    "hr_size": 32,
+    "lr_size": 8,
+    "upscale_factor": 4,
+    "latitude_min": 12.971599578857422,
+    "latitude_max": 28.61389923095703,
+    "longitude_min": 72.57140350341797,
+    "longitude_max": 88.36389923095703,
+    "idw_power": 2.0,
+    "city_order": [
+        "Belagavi",
+        "Hubballi",
+        "Bengaluru",
+        "Delhi",
+        "Mumbai",
+        "Pune",
+        "Hyderabad",
+        "Chennai",
+        "Kolkata",
+        "Ahmedabad"
+    ],
+    "total_samples": 8737,
+    "train_samples": 6115,
+    "validation_samples": 1311,
+    "test_samples": 1311,
+    "data_description": "IDW-interpolated AQI spatial surfaces created from 10 city-level modelled AQI time series for SRGAN prototype training."
+}

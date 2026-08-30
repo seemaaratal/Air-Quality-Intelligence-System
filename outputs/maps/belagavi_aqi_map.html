@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7883a18456e7fc45b6d2bf5574268059 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7883a18456e7fc45b6d2bf5574268059" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7883a18456e7fc45b6d2bf5574268059 = L.map(
+                "map_7883a18456e7fc45b6d2bf5574268059",
+                {
+                    center: [15.868040000000002, 74.66470000000001],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e2019f423ee6bef128b2204dbe3b642b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e2019f423ee6bef128b2204dbe3b642b.addTo(map_7883a18456e7fc45b6d2bf5574268059);
+        
+    
+            var marker_36411469988cad25bb99e8b9618cbd13 = L.marker(
+                [15.8521, 74.5045],
+                {
+}
+            ).addTo(map_7883a18456e7fc45b6d2bf5574268059);
+        
+    
+            var icon_740070b482350e73961e77dfe16a9a89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ecb30fd5db48051865b18d9e6a185ef = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e6c1a9ad4cfbfd27afe9698751d9743a = $(`<div id="html_e6c1a9ad4cfbfd27afe9698751d9743a" style="width: 100.0%; height: 100.0%;">     <b>Belagavi</b><br>     AQI: 39<br>     Category: Good<br>     Zone: Normal     </div>`)[0];
+                popup_8ecb30fd5db48051865b18d9e6a185ef.setContent(html_e6c1a9ad4cfbfd27afe9698751d9743a);
+            
+        
+
+        marker_36411469988cad25bb99e8b9618cbd13.bindPopup(popup_8ecb30fd5db48051865b18d9e6a185ef)
+        ;
+
+        
+    
+    
+            marker_36411469988cad25bb99e8b9618cbd13.bindTooltip(
+                `<div>
+                     Belagavi - AQI 39
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36411469988cad25bb99e8b9618cbd13.setIcon(icon_740070b482350e73961e77dfe16a9a89);
+            
+    
+            var marker_aa9644c1d07415b24cc70285b3130e8f = L.marker(
+                [15.8666, 74.6189],
+                {
+}
+            ).addTo(map_7883a18456e7fc45b6d2bf5574268059);
+        
+    
+            var icon_628842fdd56a82e7d63f2f6c45853881 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fb7ad0bf9fed1c59b9b6f06e71a815e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fbb7d34a208bc8892eac049966171da3 = $(`<div id="html_fbb7d34a208bc8892eac049966171da3" style="width: 100.0%; height: 100.0%;">     <b>Sambra</b><br>     AQI: 40<br>     Category: Good<br>     Zone: Normal     </div>`)[0];
+                popup_2fb7ad0bf9fed1c59b9b6f06e71a815e.setContent(html_fbb7d34a208bc8892eac049966171da3);
+            
+        
+
+        marker_aa9644c1d07415b24cc70285b3130e8f.bindPopup(popup_2fb7ad0bf9fed1c59b9b6f06e71a815e)
+        ;
+
+        
+    
+    
+            marker_aa9644c1d07415b24cc70285b3130e8f.bindTooltip(
+                `<div>
+                     Sambra - AQI 40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aa9644c1d07415b24cc70285b3130e8f.setIcon(icon_628842fdd56a82e7d63f2f6c45853881);
+            
+    
+            var marker_62a91b864c33fb071647b2c730503de8 = L.marker(
+                [15.6394, 74.5083],
+                {
+}
+            ).addTo(map_7883a18456e7fc45b6d2bf5574268059);
+        
+    
+            var icon_bd6b90f99e5dcb11054d5f0d2107db80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd027c69a39e810f39727d39c016666b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f5fab3a4338b7b0e669e7776a6d0da6e = $(`<div id="html_f5fab3a4338b7b0e669e7776a6d0da6e" style="width: 100.0%; height: 100.0%;">     <b>Khanapur</b><br>     AQI: 38<br>     Category: Good<br>     Zone: Normal     </div>`)[0];
+                popup_fd027c69a39e810f39727d39c016666b.setContent(html_f5fab3a4338b7b0e669e7776a6d0da6e);
+            
+        
+
+        marker_62a91b864c33fb071647b2c730503de8.bindPopup(popup_fd027c69a39e810f39727d39c016666b)
+        ;
+
+        
+    
+    
+            marker_62a91b864c33fb071647b2c730503de8.bindTooltip(
+                `<div>
+                     Khanapur - AQI 38
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_62a91b864c33fb071647b2c730503de8.setIcon(icon_bd6b90f99e5dcb11054d5f0d2107db80);
+            
+    
+            var marker_df85d3a791da42bb4184165d1630a623 = L.marker(
+                [15.813, 74.858],
+                {
+}
+            ).addTo(map_7883a18456e7fc45b6d2bf5574268059);
+        
+    
+            var icon_2bf8150fa788d5b42f9e4d6c7caab989 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3ec3059a5725e17d23b622d2b42da77 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d1294e55f508d219029f3a722bd71e3d = $(`<div id="html_d1294e55f508d219029f3a722bd71e3d" style="width: 100.0%; height: 100.0%;">     <b>Bailhongal</b><br>     AQI: 40<br>     Category: Good<br>     Zone: Normal     </div>`)[0];
+                popup_f3ec3059a5725e17d23b622d2b42da77.setContent(html_d1294e55f508d219029f3a722bd71e3d);
+            
+        
+
+        marker_df85d3a791da42bb4184165d1630a623.bindPopup(popup_f3ec3059a5725e17d23b622d2b42da77)
+        ;
+
+        
+    
+    
+            marker_df85d3a791da42bb4184165d1630a623.bindTooltip(
+                `<div>
+                     Bailhongal - AQI 40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_df85d3a791da42bb4184165d1630a623.setIcon(icon_2bf8150fa788d5b42f9e4d6c7caab989);
+            
+    
+            var marker_3b9930ea1c8cd094e2dd58bc0f32c9db = L.marker(
+                [16.1691, 74.8338],
+                {
+}
+            ).addTo(map_7883a18456e7fc45b6d2bf5574268059);
+        
+    
+            var icon_734077501940228ca37cb127db66da8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00f6f92442872cfe474dcfbc9d29a2ce = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_82e8abc55122ada8c91498ba6615af51 = $(`<div id="html_82e8abc55122ada8c91498ba6615af51" style="width: 100.0%; height: 100.0%;">     <b>Gokak</b><br>     AQI: 40<br>     Category: Good<br>     Zone: Normal     </div>`)[0];
+                popup_00f6f92442872cfe474dcfbc9d29a2ce.setContent(html_82e8abc55122ada8c91498ba6615af51);
+            
+        
+
+        marker_3b9930ea1c8cd094e2dd58bc0f32c9db.bindPopup(popup_00f6f92442872cfe474dcfbc9d29a2ce)
+        ;
+
+        
+    
+    
+            marker_3b9930ea1c8cd094e2dd58bc0f32c9db.bindTooltip(
+                `<div>
+                     Gokak - AQI 40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3b9930ea1c8cd094e2dd58bc0f32c9db.setIcon(icon_734077501940228ca37cb127db66da8e);
+            
+</script>
+</html>

@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+.vscode/
+.DS_Store
+# Generated training arrays
+data/model_ready/
+data/model_ready_v2/
+data/model_ready_v3/
+data/model_ready_multi_city/
